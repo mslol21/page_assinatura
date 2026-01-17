@@ -65,11 +65,25 @@ export default function Footer() {
         <div className="absolute top-[157px] right-[48px] flex flex-col gap-[20px] items-end text-right z-10">
           <div className="flex flex-col gap-[10px]">
             <span className="text-[#F8F8FE] text-[16px] font-semibold tracking-[-0.03em]">Nos mande uma mensagem:</span>
-            <span className="text-[#F8F8FE] text-[16px] font-semibold tracking-[-0.03em] opacity-70">Whatsapp : (48) 3199-6818</span>
+            <a 
+              href="https://wa.me/554831996818" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-[#F8F8FE] text-[16px] font-semibold tracking-[-0.03em] opacity-70 hover:opacity-100 hover:text-[#25D366] transition-all duration-300 cursor-pointer"
+            >
+              WhatsApp: (48) 3199-6818
+            </a>
           </div>
           <div className="flex flex-col gap-[10px]">
             <span className="text-[#F8F8FE] text-[16px] font-semibold tracking-[-0.03em]">Visite nosso instagram:</span>
-            <span className="text-[#F8F8FE] text-[16px] font-semibold tracking-[-0.03em] opacity-70">@holerite.digital</span>
+            <a 
+              href="https://instagram.com/holerite.digital" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-[#F8F8FE] text-[16px] font-semibold tracking-[-0.03em] opacity-70 hover:opacity-100 hover:text-[#E4405F] transition-all duration-300 cursor-pointer"
+            >
+              @holerite.digital
+            </a>
           </div>
         </div>
 

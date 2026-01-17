@@ -54,10 +54,10 @@ export default function AssinaturaFold7() {
 
               {/* Título e Descrição */}
               <div className="flex flex-col gap-5">
-                <h2 className="text-[44px] md:text-[56px] font-black text-[#1a1a1a] leading-[1.05] tracking-[-0.03em]">
+                <h2 className="text-[36px] md:text-[44px] font-black text-[#1a1a1a] leading-[1.1] tracking-[-0.03em]">
                   Perguntas Frequentes
                 </h2>
-                <p className="text-[#666] text-[18px] md:text-[20px] font-medium leading-relaxed max-w-[420px]">
+                <p className="text-[#666] text-[16px] md:text-[18px] font-medium leading-relaxed max-w-[420px]">
                   Respostas para as dúvidas mais comuns sobre o Holerite Digital.
                 </p>
               </div>
