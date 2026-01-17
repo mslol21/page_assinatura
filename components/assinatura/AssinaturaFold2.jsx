@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import ScrollAnimation from '../ui/ScrollAnimation';
 
 export default function ComoFuncionaAssinatura() {
   const steps = [
@@ -76,27 +75,25 @@ export default function ComoFuncionaAssinatura() {
         {/* Frame 112: O Grid que divide o layout */}
         <div className="max-w-[914px] mx-auto grid grid-cols-1 lg:grid-cols-[387px_1fr] gap-[53px] items-start min-h-[1490px]">
           
-          {/* COLUNA ESQUERDA: Texto Fixo com Sticky Corrigido (Frame 3) */}
-          <div className="lg:sticky lg:top-[120px] flex flex-col gap-[20px] pt-10">
-            <ScrollAnimation>
-              {/* Badge Recursos (Frame 6) */}
-              <div className="flex items-center gap-[10px] text-[#004DFF]">
-                <div className="w-[18px] h-[18px] border-2 border-[#004DFF] rounded-full flex items-center justify-center">
-                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4"><path d="M20 6L9 17 4 12"/></svg>
-                </div>
-                <span className="text-[16px] font-medium tracking-[-0.03em]">Processo Simples</span>
+          {/* COLUNA ESQUERDA: Texto Fixo com Sticky (Frame 3) */}
+          <div className="lg:sticky lg:top-[120px] lg:self-start flex flex-col gap-[20px] pt-10">
+            {/* Badge Recursos (Frame 6) */}
+            <div className="flex items-center gap-[10px] text-[#004DFF]">
+              <div className="w-[18px] h-[18px] border-2 border-[#004DFF] rounded-full flex items-center justify-center">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4"><path d="M20 6L9 17 4 12"/></svg>
               </div>
+              <span className="text-[16px] font-medium tracking-[-0.03em]">Processo Simples</span>
+            </div>
 
-              {/* Título e Body (Frame 4) */}
-              <div className="flex flex-col gap-[20px]">
-                <h2 className="text-[40px] font-bold text-[#1a1a1a] leading-[46px] tracking-[-0.03em]">
-                  Como funciona
-                </h2>
-                <p className="text-[#1a1a1a] opacity-70 text-[18px] font-semibold leading-[150%] max-w-[387px]">
-                  Três passos simples para revolucionar a distribuição de holerites na sua empresa.
-                </p>
-              </div>
-            </ScrollAnimation>
+            {/* Título e Body (Frame 4) */}
+            <div className="flex flex-col gap-[20px]">
+              <h2 className="text-[40px] font-bold text-[#1a1a1a] leading-[46px] tracking-[-0.03em]">
+                Como funciona
+              </h2>
+              <p className="text-[#1a1a1a] opacity-70 text-[18px] font-semibold leading-[150%] max-w-[387px]">
+                Três passos simples para revolucionar a distribuição de holerites na sua empresa.
+              </p>
+            </div>
           </div>
 
           {/* COLUNA DIREITA: Cards que rolam (Frame 126) */}

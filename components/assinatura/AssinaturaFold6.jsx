@@ -40,7 +40,7 @@ export default function AssinaturaFold7() {
         <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[60px] items-start">
           
           {/* LADO ESQUERDO: Texto Fixo (Sticky) */}
-          <div className="lg:sticky lg:top-[150px] flex flex-col gap-5 pt-10">
+          <div className="lg:sticky lg:top-[150px] lg:self-start flex flex-col gap-5 pt-10">
             <div>
               {/* Badge */}
               <div className="flex items-center gap-[10px] text-[#004DFF] mb-6 font-medium text-[16px]">
